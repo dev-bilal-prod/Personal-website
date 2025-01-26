@@ -1,0 +1,123 @@
+body {
+    background-image: url('green-lights-background.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    /* Scale the image to cover the whole screen */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+    min-height: 100vh;
+    /* Ensure the body takes up at least the full viewport height */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+    font-family: Arial, sans-serif;
+    /* Optional: Choose a font for the text */
+}
+
+
+.navbar {
+    display: flex;
+}
+
+.bilal {
+    font-size: xx-large;
+    display: inline-block;
+    color: aqua;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.frontend {
+
+    display: flex;
+    color: gray;
+    margin-left: 700px;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+
+
+}
+
+.button1 {
+    margin-top: 40px;
+    height: 40px;
+    width: 150px;
+    padding-left: 0px;
+    display: flex;
+    color: gray;
+    margin-left: 150px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(44, 82, 82);
+    border-color: rgba(0, 1, 3, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.en {
+
+    margin-top: 40px;
+    height: 35px;
+    display: flex;
+    color: grey;
+    margin-left: 150px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+
+.page1content {
+    display: inline-block;
+    margin-left: 800px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.designer {
+    display: flex;
+    padding-top: 40px;
+    color: aqua;
+    font-size: x-large;
+
+}
+
+.agency {
+    display: flex;
+    padding-top: 10px;
+    font-size: xxx-large;
+    color: rgb(255, 255, 255);
+}
+
+.my {
+    display: flex;
+    padding-top: 10px;
+    padding-right: 350px;
+    font-size: x-large;
+    color: aliceblue;
+}
+
+.whatsapp {
+    display: flex;
+    margin-top: 100px;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 60px;
+    background-color: aqua;
+    color: aliceblue;
+    border-color: transparent;
+
+
+}
