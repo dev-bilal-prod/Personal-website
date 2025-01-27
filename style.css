@@ -1,20 +1,17 @@
 body {
     background-image: url('green-lights-background.jpg');
-    /* Replace with your image path */
+
     background-size: cover;
-    /* Scale the image to cover the whole screen */
+
     background-position: center;
-    /* Center the image */
+
     background-repeat: no-repeat;
-    /* Prevent the image from repeating */
-    min-height: 100vh;
-    /* Ensure the body takes up at least the full viewport height */
+
+    min-height: 400vh;
+
     margin: 0;
-    /* Remove default margin */
     padding: 0;
-    /* Remove default padding */
     font-family: Arial, sans-serif;
-    /* Optional: Choose a font for the text */
 }
 
 
@@ -118,6 +115,48 @@ body {
     background-color: aqua;
     color: aliceblue;
     border-color: transparent;
+}
 
+.whatsapp::after {
+    margin-left: 55px;
+    content: "";
+    position: absolute;
+    height: 60px;
+    width: 210px;
+    border-radius: 20px;
+    background: rgb(48, 151, 89);
+    background-image: linear-gradient(to bottom right, #008f00, #26988f);
+    z-index: -1;
 
+}
+
+.whatsapp:hover {
+    z-index: 0;
+    box-shadow: 20px 0 50px #416086, -20px 0 50px #d8df9e;
+}
+
+.whatsapplogo {
+    height: 30px;
+    background-color: aqua;
+    color: aqua;
+}
+
+.nav {
+    display: flex;
+    column-gap: 100px;
+    color: antiquewhite;
+    border: solid blanchedalmond;
+    margin-top: 35px;
+    border-radius: 10px;
+    padding-left: 130px;
+    padding-right: 100px;
+    margin-left: 300px;
+    margin-right: 250px;
+
+}
+
+.c {
+    background-color: rgb(17, 39, 39);
+    padding: 10px;
+    border-radius: 25px;
 }
